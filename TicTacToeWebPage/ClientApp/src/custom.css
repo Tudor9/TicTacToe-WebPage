@@ -1,0 +1,70 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #FFFF00;
+  border-color: #FFFFFF;
+}
+
+.squares {
+  background: #373737;
+  border: none;
+  font-size: 5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.X {
+  color: red;
+}
+
+.O {
+  color: green;
+}
+
+.board {
+  margin: auto;
+  border: 1rem solid #FBB917;
+  background: #FBB917;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: left;
+  color: white;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: right;
+  color: white;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  vertical-align: top;
+}
